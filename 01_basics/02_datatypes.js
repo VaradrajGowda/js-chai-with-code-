@@ -6,7 +6,7 @@ console.log(3
     +
      3) // code readability should be high
 
-console.log("varad")
+console.log("varad") ; console.log("raj2")
 
 let a = null
 let b =  34
