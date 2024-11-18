@@ -1,14 +1,23 @@
-const  accountId  = 123
+"use strict"; // treat all JS code as newer version
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
 
-let accountName  = "Varad"
-var password  = "30983809Vv"
+// accountId = 2 // not allowed
 
-console.table([accountId , accountName , password])
 
-accountName = "Meera "
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
 
-password = "3098380"
+console.log(accountId);
 
-let  state ;
-console.table([accountId , accountName , password ,state])
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
 
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
