@@ -140,7 +140,7 @@ console.log(converttostring)
 
 
 /*
-in the above a number is converted to string 
+in the above case  a number is converted to string 
 before conversion the typeof will show number
 after cobersion to string the type will strin g
 and the if the varaible is printed it will show the 33 but this 33 is in string and not in number 
