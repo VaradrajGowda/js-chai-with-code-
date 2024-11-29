@@ -108,10 +108,10 @@ console.log(profile["age"])
 
 // to add a new key value pair 
 
-profile["course"]="bscit"
+profile.course="bscit"
 console.log(profile)
 
-profile["Div"] = "A"
+profile.div = "A"
 console.log(profile)
 
 // Non Primitive (Function)
