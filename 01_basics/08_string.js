@@ -72,5 +72,14 @@ console.log(a.slice(-4,-2)) //ai
 //remember slice and the substring are somewhat similar 
 // only advantage of using the slice over substring 
 //substring does not allow negative values 
-// slice allows positive values 
+// slice allows positive and negative  values 0
+
+// trim() to remove the whitspace 
+
+let b  = "    babu   "
+console.log(b)
+console.log(b.trim())
+console.log(b.trimStart()) //(Removes whitespace only from the beginning of a string.)
+console.log(b.trimEnd()) //(Removes whitespace only from the beginning of a string.)
+
 
