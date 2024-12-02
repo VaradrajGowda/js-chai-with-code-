@@ -68,6 +68,7 @@ console.log(a.substring(0,2)) // Bh
 console.log(a.slice(2,-1)) //aiy (here -1 refers to the last elemeny of the string)
 console.log(a.slice(-2 ,-1)) //y
 console.log(a.slice(-4,-2)) //ai
+console.log(a.slice(1))//haiya
 
 //remember slice and the substring are somewhat similar 
 // only advantage of using the slice over substring 
@@ -81,5 +82,25 @@ console.log(b)
 console.log(b.trim())
 console.log(b.trimStart()) //(Removes whitespace only from the beginning of a string.)
 console.log(b.trimEnd()) //(Removes whitespace only from the beginning of a string.)
+
+//replace()  use to replace a part of a string  with another string 
+
+let rep =  "Harry Bhai"
+let rep1 =  rep.replace("Harry", "hitesh")
+console.log(rep1) // Hitesh Bhai 
+
+console.log(rep)// Harry bHai 
+
+//concat()  to combine the two string 
+
+let  aa =  "riddhi"
+let bb = "siddhi"
+console.log(aa.concat(" sister of ",bb))
+
+
+//
+
+
+
 
 
