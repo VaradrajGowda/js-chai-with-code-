@@ -95,10 +95,61 @@ console.log(rep)// Harry bHai
 
 let  aa =  "riddhi"
 let bb = "siddhi"
+
 console.log(aa.concat(" sister of ",bb))
 
 
-//
+//include() The includes function in JavaScript checks if a string contains a specific substring.
+// It returns true if found, otherwise false.
+
+console.log(aa.includes("q"))// false
+console.log(aa.includes("r"))// Ture
+
+// startswith() The index to start checking from (default is 0).
+
+let start =  "harry bhai"
+console.log(start.startsWith("a")) // false
+console.log(start.startsWith("h"))// true 
+console.log(start.startsWith("h" ,0)) // true
+console.log(start.startsWith("h",1))// false
+console.log(start.startsWith("a" , 1)) // true 
+
+console.log(start.endsWith("bhai",10)) // true
+console.log(start.endsWith("bhai",9)) // false
+console.log(start.startsWith("bhai",6))//true
+
+// point to be remember 
+// the second parameter in startswith indicates index number starts  from 0
+// the second parameter in endswith indicates the length of the string and starts from 1 
+
+
+// split() The split method in JavaScript divides a string into an array of substrings based on a specified delimiter.
+
+// 1.Separator (optional): The character(s) to split the string by (e.g., ",", " ").
+// 2.Limit (optional): The maximum number of splits to perform.
+
+let string  = "miral , disha , purva , sneha , shruti"
+
+console.log(string.split(",",3 ))
+console.log(string.split(",",4 ))
+
+// for more please visit mdn refernces 
+
+// note  
+
+// string are immutable
+// means cannot change the original string 
+
+// for eg 
+
+let examp =  "deepak"
+examp[2] = "z"
+console.log(examp)// deepak
+
+
+
+
+
 
 
 
