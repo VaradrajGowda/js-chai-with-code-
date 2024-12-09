@@ -36,4 +36,17 @@ It returns a string, not a number.
 If the digits value is greater than the number's actual decimal places, it pads the number with zeros.
 If the digits value is less than the number's actual decimal places, it rounds the number.
 
+for eg 
+
+let num = 123.456;
+
+// Rounded to 2 decimal places
+console.log(num.toFixed(2)); // Output: "123.46"
+
+// Rounded to 0 decimal places
+console.log(num.toFixed(0)); // Output: "123"
+
+// Padded with zeros
+console.log(num.toFixed(5)); // Output: "123.45600"
+
 */
