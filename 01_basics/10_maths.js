@@ -36,4 +36,25 @@ console.log(Math.min(2,3,4,5))//2
 //6.max()
 console.log(Math.max(2,3,4,5)) // 5gg
 
-//math.random()
+//math.random()-->  that generates a random decimal number between 0 (inclusive) and 1 (exclusive). 
+
+
+console.log(Math.random()) // from 0 to 1 including the decimals 
+
+console.log(Math.random() *10 )  //  from 0 to 10 incuding the decimals 
+
+console.log(Math.random( )* 10 + 1) // from 1 to 10 including the decimals 
+//sometimes in the above case  due to bodmas rule the output may differ so please you use required brackets 
+
+// better form then the above case 
+console.log((Math.random()*10) +1 ) // from 1 to 10 including the decimals 
+
+console.log(Math.floor(Math.random()*10) +1)  // from 1 to 10 without decimales 
+
+
+// too get a number between 10 and 20 using min and max 
+
+let min  = 10 
+let max = 20
+console.log(Math.floor(Math.random() *  (max-min+1) + min))
+
