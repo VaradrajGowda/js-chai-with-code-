@@ -34,6 +34,6 @@ console.log(Math.min(2,3,4,5))//2
 
 
 //6.max()
-console.log(Math.max(2,3,4,5)) // 5
+console.log(Math.max(2,3,4,5)) // 5gg
 
 //math.random()
