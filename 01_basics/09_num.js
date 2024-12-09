@@ -50,3 +50,28 @@ console.log(num.toFixed(0)); // Output: "123"
 console.log(num.toFixed(5)); // Output: "123.45600"
 
 */
+
+
+/*
+toprecision()-> this method is used to format a number to a specified length (number of significant digits).
+ It returns the number as a string.
+
+
+
+*/
+let another = 134.556
+console.log(another.toPrecision(3))// 135
+console.log(another.toPrecision(2)) // 1.3e+2
+console.log(another.toPrecision(4)) //134.6
+
+/*
+toLocaleString()--> this method is used to   format a number according 
+to the local language and region-specific conventions, such as
+ adding commas, currency symbols, or other formatting.
+
+*/
+
+let hundred = 1000000
+console.log(hundred.toLocaleString()) //1 ,000,000 (By default)
+console.log(hundred.toLocaleString("en-IN")) //10,00,000
+console.log(hundred.toLocaleString("en-in",{style:"currency" ,currency:"INR"}))// ₹10,00,000.00
