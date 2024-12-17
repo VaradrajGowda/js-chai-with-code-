@@ -34,6 +34,18 @@ console.log(Math.floor(Date.now()/1000)) // to avoid the decimal
 console.log(typeof another)//number and not object 
 let date1  =  new Date(another)
 console.log(date1)
+
 console.log(date1.toLocaleString())
 
-// to know the particluar date month year 
+// to know the particluar date month year etc
+let newdate = Date.now()
+console.log(newdate)
+let newdate1 = new Date(newdate)
+console.log(newdate1.toDateString())
+console.log(newdate1.getMonth())// Month works from January and from 0 
+// so in the month in order to avoid confusion write the below code
+console.log(newdate1.getMonth()  + 1 )
+
+console.log(newdate1.getFullYear()) 
+console.log(newdate1.getDay())// day works from monday and from 1 
+
