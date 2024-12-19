@@ -49,3 +49,14 @@ console.log(newdate1.getMonth()  + 1 )
 console.log(newdate1.getFullYear()) 
 console.log(newdate1.getDay())// day works from monday and from 1 
 
+
+//customizing the Date 
+
+let customizing =  new Date()
+console.log(customizing.toLocaleString("default" ,{weekday : "short"})) // error because the first argument is null
+console.log(customizing.toLocaleString("default" ,{weekday : "short"})) // Thu
+console.log(customizing.toLocaleString("default" ,{weekday : "narrow"})) // T
+console.log(customizing.toLocaleString("default" ,{weekday : "short"}))  // Thu
+
+
+
